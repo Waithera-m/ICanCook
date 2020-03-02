@@ -1,0 +1,12 @@
+body{
+  background-image: url(https://bit.ly/3aiwZbo);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+h1{
+  text-align: center;
+  /* margin-left: 600px; */
+}
