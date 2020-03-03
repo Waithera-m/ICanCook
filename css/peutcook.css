@@ -1,0 +1,11 @@
+#m2{
+    font-family: 'Fredoka One';
+}
+.contact-us{
+    height: auto;
+    width: auto;
+    background-color:  #ffa64d ;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
