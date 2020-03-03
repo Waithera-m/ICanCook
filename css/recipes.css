@@ -10,3 +10,8 @@ h1{
   text-align: center;
   /* margin-left: 600px; */
 }
+fieldset{
+  /* background-color: aqua; */
+  padding: 50px;
+  border-radius: 25px;
+}
