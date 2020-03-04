@@ -34,6 +34,21 @@ legend {
   color: cyan;
 fieldset{
   /* background-color: aqua; */
+<<<<<<< HEAD
   /* padding: 50px;
   border-radius: 25px; */
 } */
+=======
+  padding: 50px;
+  border-radius: 25px;
+}
+#button{
+  text-align: center;
+  color: blue;
+  box-sizing: content-box;
+  border-radius: 15px;
+  
+  /* background-color: blue; */
+  /* padding: 15px; */
+}
+>>>>>>> d392dae734a81664b122ec0eb88e0dfc635d1d9d
