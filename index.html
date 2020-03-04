@@ -1,14 +1,54 @@
 <!DOCTYPE html>
   <head>
     <title>ICanCook</title>
-    <link href="css/peutcook.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/peutcook.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Anton|Dancing+Script|Fredoka+One|Luckiest+Guy|Monoton&display=swap" rel="stylesheet">
   </head>
    <body>
+<!--Container for sign up form-->
+
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#" onsubmit="return validateTheForm()">
+          <h1>Create Account</h1>
+          <input type="text" placeholder="Name" id="Name" required/>
+          <input type="email" placeholder="Email" id="Email" required/>
+          <input type="password" placeholder="Password" id="Password" required />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+<!---Container for sign in form-->
+      <div class="form-container sign-in-container">
+        <form action="#" onsubmit="return validateTheForm2()">
+          <h1>Sign in</h1>
+          <input type="email" placeholder="Email" id="Emailo" required/>
+          <input type="password" placeholder="Password" id="Passwordo" required/>
+          <a href="#">Forgot your password?</a>
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+<!---Overlay transition container-->
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and have a go</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
     <div class="row contact-us">
         <div class="col-md-12">
           <h3 id="m2">CONTACT US.</h3>
@@ -18,10 +58,11 @@
             <img src="images/icons8-facebook-50.png"></a>
           <a href="https://wa.me/254717976042">
             <img src="images/icons8-whatsapp-50.png"></a>
-          <a href="Tel: +254717976042" class="btn">
+          <a href="Tel: +254717976042" >
             <img src="images/icons8-phone-50 (1).png"></a>
         </div>
       </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
     <script src="js/peutcook.js"></script>
    </body>
