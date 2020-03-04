@@ -10,3 +10,14 @@
     padding: 30px;
 }
 
+ol li {
+    list-style: none;
+    display: inline-block;
+}
+.containerOne {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
