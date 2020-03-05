@@ -10,8 +10,33 @@ h1{
   text-align: center;
   /* margin-left: 600px; */
 }
+html {
+  font-family: sans-serif;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+/* 
+div {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  background: cyan;
+  border: 5px so/lid blue;
+}
+
+legend {
+  padding: 10px;
+  background: blue;
+  color: cyan;
 fieldset{
   /* background-color: aqua; */
+  /* padding: 50px;
+  border-radius: 25px; */
+} */
   padding: 50px;
   border-radius: 25px;
 }
