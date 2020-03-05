@@ -30,8 +30,8 @@ function validateTheForm() {
       return false;
     }
      else {
-      alert(
-        "Hello, we have received your message. Thank you for reaching out to us."
+      swal (
+         "Welcome back"
       );
     }
     event.preventDefault();
