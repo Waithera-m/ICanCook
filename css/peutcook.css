@@ -17,7 +17,13 @@
 	max-width: 100%;
 	min-height: 100px;
 }
-
+p {
+	text-align: center;
+	font-size: large;
+}
+#about {
+	margin-bottom: 50px;
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');

@@ -1,5 +1,5 @@
 body{
-  background-image: url(https://bit.ly/3aiwZbo);
+  background-image: url(https://bit.ly/2wyx0t0);
   background-size: cover;
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
@@ -10,6 +10,9 @@ h1{
   text-align: center;
   /* margin-left: 600px; */
 }
+h2{
+  text-align: left;
+}
 html {
   font-family: sans-serif;
 }
@@ -17,6 +20,9 @@ html {
 form {
   width: 600px;
   margin: 0 auto;
+}
+fieldset{
+  font-size: large;
 }
 /* 
 div {
@@ -32,13 +38,6 @@ legend {
   padding: 10px;
   background: blue;
   color: cyan;
-fieldset{
-  /* background-color: aqua; */
-  /* padding: 50px;
-  border-radius: 25px; */
-} */
-  padding: 50px;
-  border-radius: 25px;
 }
 #button{
   text-align: center;

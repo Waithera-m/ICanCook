@@ -20,8 +20,10 @@ $(document).ready(function () {
       $(".imageFour").click(function () {
           $("#carouselHome").carousel(3);
       });
+    });
   
-  function validateTheForm() {
+  
+function validateTheForm() {
       var Email= document.getElementById("Email").value;
       var Password = document.getElementById("Password").value;
       var Name = document.getElementById("Name").value;
@@ -40,7 +42,8 @@ $(document).ready(function () {
       }
       event.preventDefault();
     }
-  function validateTheForm2() {
+
+function validateTheForm2() {
       var Email= document.getElementById("Emailo").value;
       var Password = document.getElementById("Passwordo").value;
       if (Email == "") {
@@ -70,7 +73,7 @@ $(document).ready(function () {
   signInButton.addEventListener('click', () => {
     container.classList.remove("right-panel-active");
   });
-  });
+
 
 
 
