@@ -24,9 +24,10 @@ $(document).ready(function(){
       "jollofRiceFish": "https://www.sbs.com.au/food/recipes/jollof-rice-fish"
     }
   };
-
+function checkOut (){
   var allPurposeFlour = document.getElementById("allPurposeWheatFlour").value;
   var maizeFlour = document.getElementById("mflour").value;
+  var rice = document.getElementById("rice").value;
   var pasta = document.getElementById("pasta").value;
   var beans = document.getElementById("beans").value;
   var lentils = document.getElementById("lentils").value;
@@ -52,4 +53,92 @@ $(document).ready(function(){
   var garlic = document.getElementById("garlic").value;
   var tangawizi = document.getElementById("tangawizi").value;
 
+ //Determine links to return if users select more than one ingredient
+ 
+  //Match users' flour and grains' selection and recipe links
+  if(allPurposeFlour !== null){
+    return meals.flour.wheatFlour;
+  }else if(maizeFlour !== null){
+    return meals.flour.maizeFlour;
+  }else if(rice !==null){
+    return meals.flour.rice;
+  }else if(pasta !== null){
+    return meals.flour.pasta;
+  }else if(beans !== null){
+    return meals.flour.beans;
+  }else if(lentils !== null){
+    return meals.flour.lentils;
+  }else if (blackBeans!== null){
+    return meals.flour.blackbeans;
+  };
+  
+//Match users' vegetable selection and recipe links
+  if(tomatoes !== null){
+    return meals.vegetables.tomato;
+  }else if(cabbage !== null){
+    return meals.vegetables.cabbage;
+  }else if(brocolli !== null){
+    return meals.vegetables.broccoli;
+  }else if(cauliflower !== null){
+    return meals.vegetables.cauliflower;
+  }else if(spinach !== null){
+    return meals.vegetables.spinach;
+  }else if(sukuma !== null){
+    return meals.vegetables.sukuma;
+  }else if(onion !== null){
+    return meal.vegetables.onion;
+  }else if(garlic !== null){
+    returnmeals.vegetables.garlic;
+  }else{
+    return meals.vegetables.tangawizi;
+  };
+
+  if(allPurposeFlour !== null && blackBeans !== null){
+    return meals.combinedMeals.chapatiBlackbeans;
+  }else if(rice !== null && beans !== null){
+    return meals.combinedMeals.riceBeans;
+  }else if(rice !== null && blackBeans !== null){
+    return meals.combinedMeals.riceBlackbeans;
+  }else if(rice !== null && blackBeans !== null && chicken !== null){
+    return meals.combinedMeals.riceBlackBeansChicken;
+  }else if(rice !== null && coconutMilk !== null && beans !== null){
+    return meals.combinedMeals.riceBeansCoconut;
+  }else if(rice !== null && chicken !== null){
+    return meals.combinedMeals.riceChicken;
+  }else if(rice !== null && fish !== null){
+    return meals.combinedMeals.riceFish;
+  }else if(rice !== null && beef !== null){
+    return meals.combinedMeals.riceBeefStew;
+  }else if(rice !== null && lentils !== null && yogurt !== null){
+    return meals.combinedMeals.riceLentilsYogurt;
+  }else if(ugali !== null && fish !== null && sukuma !== null){
+    return meals.combinedMeals.ugaliFishSukuma;
+  }else if(ugali !== null && fish !== null && beans !== null){
+    return meals.combinedMeals.ugaliBeansVeg;
+  }else if(rice !== null && garlic !== null && fish !== null){
+    return meals.combinedMeals.jollofRiceFish;
+  }else if(ugali !== null && beef !== null){
+    return meals.combinedMeals.ugaliChicken;
+  }else if(ugali !== null && pork !== null){
+    return meals.combinedMeals.porkUgali;
+  }else if(bacon !== null && eggs !== null){
+    return meals.combinedMeals.baconOmelete;
+  }else if(parmesan !== null && bacon !== null){
+    return meals.combinedMeals.cheeseBacon;
+  }else if(cheddar !== null && pasta !== null){
+    return meals.combinedMeals.lasagna;
+  }else if(rice !== null && milk !== null && spinach !== null){
+    return meals.combinedMeals.ricespinach;
+  }else if(beef !== null && spinach !== null){
+    return meals.combinedMeals.beefTumbukiza;
+  }else if(ugali !== null && tangawizi !== null && meat !== null && sukuma !== null){
+    return meals.combinedMeals.ugaliSukumaMeat;
+  }else if(ugali !== null $$ chicken !== null){
+    return meals.combinedMeals.ugaliChicken;
+  };
+};
+ 
+
+
+  
 });
