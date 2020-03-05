@@ -29,22 +29,22 @@ function checkOut(){
   var garlic = document.getElementById("garlic").value;
   var tangawizi = document.getElementById("tangawizi").value;
 
-if (Chicken === ''){
   alert("Check this out" + meals.meat.Chicken);
 
+}if (Chicken === ''){
+
+if(Bacon !== null){
+  return "Check out this" + meals.meat.Bacon;
 }
-if(Bacon === ''){
-  alert("Check out this" + meals.meat.Bacon)
+if(Fish !== null){
+  return"check this out" + meals.meat.Fish;
 }
-if(Fish === ''){
-  alert("check this out" + meals.meat.Fish)
-}
-if(Pork === ''){
-  alert("Check out this " + meals.meat.Pork)
+if(Pork !== null){
+  return"Check out this " + meals.meat.Pork;
 }
 
-if( beef === ''){
-  alert("Check out" +meals.meat.beef);
+if( beef !== null){
+  return"Check out" +meals.meat.beef;
 }
 }
 $(document).ready(function(){
