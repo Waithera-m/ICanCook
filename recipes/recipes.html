@@ -8,17 +8,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="/css/recipes.css" rel="stylesheet" type="text/css">
-  <!-- </head>
+</head>
 
-<body>
+<!-- <body>
   <div class="container">
     <div class="title">
       <h1 style="color:white;">Recipes</h1>
     </div>
-<!-- 
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="/css/recipes.css" rel="stylesheet" type="text/css"> --> -->
-</head>
+    <link href="/css/recipes.css" rel="stylesheet" type="text/css"
+</head> -->
 
 <body>
   <div class="container"> 
@@ -60,12 +60,12 @@
           <div>
 
             <input type="radio" id="beef" name="beef" value="meat">
-            <label for="beef"> Beaf</label><br>
+            <label for="beef"> Beef</label><br>
 
             <input type="radio" id="chicken" name="chicken" value="meat">
             <label for="beef"> Chicken</label><br>
 
-            <input type="radio" id="cowmeat" name="cowmeat" value="meat">
+            <input type="radio" id="bacon" name="cowmeat" value="meat">
             <label for="beef"> Bacon</label><br>
 
             <input type="radio" id="fish" name="fish" value="meat">
@@ -78,6 +78,39 @@
         <div id="button">
           <button type="btn btn-primary" id="submit" onclick="checkOut()">Submit</button>
         </div>
+
+
+
+
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Results</button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+              <div class="modal-body">
+                beef<a href=" https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s " ><> <br>
+                   <!-- Chicken <a href=" https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms,"> -->
+                  <!-- "Bacon" : "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515", -->
+                  <!-- "Fish": "https://www.gimmesomeoven.com/cook-whole-fish/", -->
+                  <!-- "pork" : "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/", </p> --></a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        
+
+
         
       </div>
     </div>

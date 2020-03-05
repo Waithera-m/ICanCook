@@ -1,62 +1,49 @@
 
 
 function checkOut(){
-    // prompt = ("enter you name");
-    //    var name = prompt("input your name");
-    //    var name = document.getElementById("input").value();
-    //    alert("Hello " + name);
-    var rice = document.getElementById("rice").value;
-    var eggs = document.getElementById("eggs").value;
-    if(rice !== null && eggs !== null){
-    console.log("checkout this: " + meals.meat.Chicken)
-    }
+    var allPurposeFlour = document.getElementById("allPurposeWheatFlour").value;
+  var maizeFlour = document.getElementById("maizeFlour").value;
+  var rice = document.getElementById("rice").value;
+  var pasta = document.getElementById("pasta").value;
+  var beans = document.getElementById("beans").value;
+  var lentils = document.getElementById("lentils").value;
+  var blackBeans = document.getElementById("blackbeans").value;
+  var milk = document.getElementById("milk").value;
+  var eggs = document.getElementById("eggs").value;
+  var cheddar = document.getElementById("cheddar").value;
+  var parmesan = document.getElementById("parmesan").value;
+  var yogurt = document.getElementById("yogurt").value;
+  var coconutMilk = document.getElementById("coconutMilk").value;
+  var beef = document.getElementById("beef").value;
+  var chicken = document.getElementById("chicken").value;
+  var bacon = document.getElementById("bacon").value;
+  var fish = document.getElementById("fish").value;
+  var pork = document.getElementById("pork").value;
+  var tomatoes = document.getElementById("tomatoes").value;
+  var cabbage = document.getElementById("cabbage").value;
+  var brocolli = document.getElementById("brocolli").value;
+  var cauliflower = document.getElementById("cauliflower").value;
+  var spinach = document.getElementById("spinach").value;
+  var sukuma = document.getElementById("sukuma").value;
+  var onion = document.getElementById("onion").value;
+  var garlic = document.getElementById("garlic").value;
+  var tangawizi = document.getElementById("tangawizi").value;
+
+if (Chicken === ''){
+  alert("Check this out" + meals.meat.Chicken);
+
+}
+if(Bacon === ''){
+  alert("Check out this" + meals.meat.Bacon)
+}
+if(Fish === ''){
+  alert("check this out" + meals.meat.Fish)
+}
+if(Pork === ''){
+  alert("Check out this " + meals.meat.Pork)
 }
 
-
-$(document).ready(function(){
-    // $("button#submit").click(function(){
-    //     alert("Hello");
-    // })
-// //   function meals (flour, vegetable, meat, dairy){
-// //     this.flours = {
-// //       "maizeFlour": "https://cookpad.com/ke/recipes/4727293-how-to-cook-the-perfect-ugali",
-// //       "wheatflour": "https://www.bigoven.com/recipe/kenyan-soft-layered-chapati/2296480",
-// //       "legumes": "https://www.soscuisine.com/recipe/mixed-legume-salad"
-// //     }
-// //     this.vegetables = {
-// //       "cabbage": "https://www.wellplated.com/sauteed-cabbage/",
-// //       "spinach": "https://cafedelites.com/easy-creamed-spinach/"
-// //     }
-//     this.meat = {
-//         "Beaf": "https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s",
-//         "Chicken" :"https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms",
-//         "Bacon" : "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
-//         "Fish": "https://www.gimmesomeoven.com/cook-whole-fish/",
-//         "pork" : "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/",
-//     }
-//   }
-
-  meals = {
-    // flour:{
-    //   "maizeFlour": "https://cookpad.com/ke/recipes/4727293-how-to-cook-the-perfect-ugali",
-    //   "wheatflour": "https://www.bigoven.com/recipe/kenyan-soft-layered-chapati/2296480",
-    //   "legumes": "https://www.soscuisine.com/recipe/mixed-legume-salad"
-    // },
-    // vegetables:{
-    //   "cabbage": "https://www.wellplated.com/sauteed-cabbage/",
-    //   "spinach": "https://cafedelites.com/easy-creamed-spinach/"
-    // },
-   
-        meat:{
-            "Beaf": "https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s",
-            "Chicken" :"https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms",
-            "Bacon" : "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
-            "Fish": "https://www.gimmesomeoven.com/cook-whole-fish/",
-            "pork" : "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/", 
-        }
-
-    // combinedmeals:{
-    // "ricespinach":"https://www.allrecipes.com/recipe/72500/spinach-rice/"}
-
-  }
-})
+if( beef === ''){
+  alert("Check out" +meals.meat.beef);
+}
+}
