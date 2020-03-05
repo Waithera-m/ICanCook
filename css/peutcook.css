@@ -21,3 +21,59 @@ ol li {
     margin-right: auto;
     margin-left: auto;
 }
+ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 0 20px;
+   }
+   .one{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        font-size: 45px;
+        color: white;
+        transform: translate(-50%, -50%);
+      }
+   .two{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 45px;
+    color: white;
+    transform: translate(-50%, -50%);
+   }
+   .three{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 45px;
+    color: white;
+    transform: translate(-50%, -50%);
+   }
+   .four{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 45px;
+    color: white;
+    transform: translate(-50%, -50%);
+   }
+   .tit{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 65px;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+   }
+   .first{
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        
+      }
+      
+      
+   
