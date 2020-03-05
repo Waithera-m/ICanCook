@@ -12,7 +12,11 @@ A brief snapshot of the wonderful website
 - [x] Raphael Kariuki
 - [x] Mathiu Jesse
 
+## Version
+ICanCook 1.0
+
 ## Description 
+
 This website was created to execute simple functions like to show you how to cook according to your kitchen inventory thus 
 making life simple to cook anything with enhanced descriptive recipies..
 
@@ -36,7 +40,7 @@ Git clone the repository using the
 
 **Used in the FrontEnd of the Website to adjust the User Interface and also making the website appealing
 
-HTML 
+HTML v5
 CSS
 Bootstrap
 
