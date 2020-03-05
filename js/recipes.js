@@ -37,4 +37,4 @@ function checkOut(){
         return meals.dairy.cheddar;
     }else if (parmesan !== null){
         return meals.dairy.cheddar;
-    }
+    }}
