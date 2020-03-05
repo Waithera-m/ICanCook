@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
   <title>ICanCook</title>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -7,7 +7,6 @@
   <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
   <link href="css/peutcook.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <script src="js/peutcook.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -58,6 +57,7 @@
           </Ol>
           <div class="tit">Welcome to I Can Cook</div>
           <div class="two" style="text-align: center;">"Cooking has become one of my favorite pasttimes since"</div>
+
         </div>
         <div class="carousel-item">
           <img class="d block w-100" src="images/food3.jpg" height="800vh" alt="Picture of Ugali and Stew">
@@ -101,21 +101,62 @@
       ensure that the lits of ingredients are common and easy to access. Our aim is to help people find ways to enjoy
       they're food even when they may not have the resources or the time to prepare such complex meals that require rare
       and expensive components. </p>
+    </div>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#" onsubmit="return validateTheForm()">
+          <h1>Create Account</h1>
+          <input type="text" placeholder="Name" id="Name" required/>
+          <input type="email" placeholder="Email" id="Email" required/>
+          <input type="password" placeholder="Password" id="Password" required />
+          <button type="submit">Sign Up</button>
+        </form>
       </div>
-  <!-- <div class="row contact-us">
-    <div class="col-md-12">
-      <h3 id="m2">CONTACT US.</h3>
+<!---Container for sign in form-->
+      <div class="form-container sign-in-container">
+        <form action="#" onsubmit="return validateTheForm2()">
+          <h1>Sign in</h1>
+          <input type="email" placeholder="Email" id="Emailo" required/>
+          <input type="password" placeholder="Password" id="Passwordo" required/>
+          <a href="#">Forgot your password?</a>
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+<!---Overlay transition container-->
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and have a go</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-12">
-      <a href="https://www.facebook.com">
-        <img src="images/icons8-facebook-50.png"></a>
-      <a href="https://wa.me/254717976042">
-        <img src="images/icons8-whatsapp-50.png"></a>
-      <a href="Tel: +254717976042" class="btn">
-        <img src="images/icons8-phone-50 (1).png"></a>
-    </div>
-  </div> -->
-  <script src="js/peutcook.js"></script>
-</body>
-
+    <footer>
+    <div class="row contact-us">
+        <div class="col-md-12">
+          <h3 id="m2">CONTACT US.</h3>
+        </div>
+        <div id="facebook">
+          <a href="https://www.facebook.com" >
+            <img src="images/icons8-facebook-50.png"></a>
+        </div>
+        <div id="whatsapp">
+          <a href="https://wa.me/254717976042">
+            <img src="images/icons8-whatsapp-50.png"></a>
+          </div>
+          <div id="phone">
+          <a href="Tel: +254717976042" >
+            <img src="images/icons8-phone-50(1).png"></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="js/peutcook.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   </body>
 </html>
