@@ -1,52 +1,62 @@
-# WELCOME TO ICanCook!
+# WELCOME TO ICanCook! 
 A brief snapshot of the wonderful website
 
 
 
 <<IMAGE OF WEBSITE HERE!>>
-## Authors
+## Authors 
 
 - [x] Njihia Mary (Scram Master)
 - [x] Lisa Thuo
 - [x] Eugene Iregi
 - [x] Raphael Kariuki
 - [x] Mathiu Jesse
-## Description
+
+## Description 
 This website was created to execute simple functions like to show you how to cook according to your kitchen inventory thus 
 making life simple to cook anything with enhanced descriptive recipies..
 
 
-## Features
+## Features 
+Through heavy coding and analysis we came up with a enhanced way of discovering recipies via;
 
 
 
 ## Behaviour Driven Development
+The user first clicks on the buttons to that have data representing what they have on the kitchen
 
-
-## Installation And Setup
+## Installation And Setup 
 Git clone the repository using the
 
-## Known Bugs
+## Known Bugs 
 
 
 
-## Technologies Used
+## Technologies Used 
+
 **Used in the FrontEnd of the Website to adjust the User Interface and also making the website appealing
 
 HTML 
 CSS
 Bootstrap
-**Used in the Backend of the Website to make the functioning of the website and run operations smoothly
+
+**Used in the Backend of the Website to make the functioning of the website and run operations smoothly 
 
 JavaScript
 JQuery
 
-## Support And Contact Details
+**Used in Hosting our projects
+
+Git
+GitHub
+
+## Support And Contact Details 
+For any regards of edits and assistance our details are reserved below;
 
 
 
-## GitHub Pages Link
-
+## GitHub Pages Link 
+The website can be accessed via GitHub Pages 
 
 ## License
 Copyright 2020  ICanCook
