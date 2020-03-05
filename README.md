@@ -27,10 +27,13 @@ Through heavy coding and analysis we came up with a enhanced way of discovering 
 
 
 ## Behaviour Driven Development
-The user first clicks on the buttons to that have data representing what they have on the kitchen
+| INPUT | PROCESSING | OUTPUT |
+|The user first clicks on the buttons to that have data representing what they have on the kitchen| VJKENVCERV | trbtbtn |
+
 
 ## Installation And Setup 
-Git clone the repository using the
+Git clone the repository using the link below
+https://github.com/Waithera-m/ICanCook.git
 
 ## Known Bugs 
 
@@ -61,6 +64,7 @@ For any regards of edits and assistance our details are reserved below;
 
 ## GitHub Pages Link 
 The website can be accessed via GitHub Pages 
+Heres the link to the website 
 
 ## License
 Copyright 2020  ICanCook
