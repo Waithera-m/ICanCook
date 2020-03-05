@@ -50,6 +50,22 @@ if( beef !== null){
 
 $(document).ready(function(){
   meals={
+   flour: {
+            "wheatFlour": "https://www.allrecipes.com/recipe/233531/quick-whole-wheat-chapati/",
+            "maizeFlour": "https://recipes.timesofindia.com/recipes/maize-flour-dhoklas/rs59756029.cms",
+            "rice": "https://www.delish.com/cooking/a20089653/how-to-cook-rice/",
+            "pasta": "https://thewanderlustkitchen.com/pasta-for-one-10-minutes/",
+            "beans": "https://www.bbcgoodfood.com/recipes/kidney-bean-curry",
+            "lentils": "https://www.culinaryhill.com/how-to-cook-lentils/",
+            "blackbeans": "https://www.allrecipes.com/recipe/63113/best-black-beans/"
+   },
+      dairy:{
+        "milk":"https://healthynibblesandbits.com/how-to-make-paneer/",
+        "eggs":"https://www.bonappetit.com/recipe/real-deal-aioli",
+        "cheddar":"https://www.tasteofhome.com/recipes/parmesan-potato-wedges/",
+        "parmesan":"https://www.tasteofhome.com/recipes/parmesan-baked-potatoes/",
+
+    },
     vegetables:{
         "tomato": "https://www.bbcgoodfood.com/recipes/collection/tomato/",
         "cabbage": "https://www.wellplated.com/sauteed-cabbage/",
@@ -92,7 +108,36 @@ $(document).ready(function(){
       "jollofRiceFish": "https://www.sbs.com.au/food/recipes/jollof-rice-fish"
     }
   };
-function checkOut (){
+function checkOut(){
+    var milk = document.getElementById("milk").value;
+    var eggs = document.getElementById("eggs").value;
+    var cheddar= document.getElementById("cheddar").value;
+    var parmesan = document.getElementById("parmesan").value;
+    var rice = document.getElementById("rice").value;
+    var allPurposeWheatFlour = document.getElementById("allPurposeWheatFlour").value;
+    var maizeFlour = document.getElementById("mflour").value;
+    var spaghetti = document.getElementById("spaghetti").value;
+    var beans = document.getElementById("beans").value;
+    var lentils = document.getElementById("lentils").value;
+    var blackbeans = document.getElementById("blackbeans").value;
+    var beef = document.getElementById("beef").value;
+    var chicken = document.getElementById("chicken").value;
+    var bacon = document.getElementById("bacon").value;
+    var fish = document.getElementById("fish").value;
+    var pork = document.getElementById("pork").value;
+
+
+    
+  
+    if(milk !== null){ 
+        return meals.dairy.milk;
+    }else if(eggs !== null){
+        return meals.dairy.eggs;
+    }else if (cheddar !== null){
+        return meals.dairy.cheddar;
+    }else if (parmesan !== null){
+        return meals.dairy.cheddar;
+    }
  
 
  //Determine links to return if users select more than one ingredient
@@ -179,8 +224,3 @@ function checkOut (){
     return meals.combinedMeals.ugaliChicken;
   };
 };
- 
-
-
-  
-});
