@@ -63,9 +63,9 @@ $(document).ready(function(){
     },
     meat : {
       "beef":"https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s ",
-     "Chicken" :" https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms,",
-     "Bacon" : "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
-      "Fish": "https://www.gimmesomeoven.com/cook-whole-fish/",
+     "chicken" :" https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms,",
+     "bacon" : "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
+      "fish": "https://www.gimmesomeoven.com/cook-whole-fish/",
       "pork" : "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/"
     },
     combinedMeals:{
