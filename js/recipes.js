@@ -29,7 +29,7 @@ function checkOut(){
   var garlic = document.getElementById("garlic").value;
   var tangawizi = document.getElementById("tangawizi").value;
 
-  alert("Check this out" + meals.meat.Chicken);
+  // alert("Check this out" + meals.meat.Chicken);
 
 }if (Chicken !== null){
 return "check out thiis".meal.beef.chicken;
@@ -60,6 +60,13 @@ $(document).ready(function(){
         "onion": "https://www.simplyrecipes.com/recipes/how_to_caramelize_onions/",
         "garlic": "https://cafedelites.com/garlic-mushrooms/",
         "tangawizi": " https://tarasmulticulturaltable.com/chai-ya-tangawizi-kenyan-ginger-tea/"
+    },
+    meat : {
+      "beef":"https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s ",
+     "Chicken" :" https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms,",
+     "Bacon" : "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
+      "Fish": "https://www.gimmesomeoven.com/cook-whole-fish/",
+      "pork" : "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/"
     },
     combinedMeals:{
       "ricespinach":"https://www.allrecipes.com/recipe/72500/spinach-rice/",
