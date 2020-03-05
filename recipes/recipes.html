@@ -1,46 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Recipes</title>
-    <link href="css/recipes.css" rel="stylesheet">
-
+    <div class="title">
+      <title>Recipes</title>
+    </div>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/recipes.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="container">
-      <h1 style="text-align: center;">Recipes</h1>
+      <div class="title">
+        <h1 style="color:white;">Recipes</h1>
+      </div>
       <div class="row">
         <div class="col-md-6">
-          <h2>Flour & Grains</h2>
+          <h2 style="text-align: center;">Flour & Grains</h2>
+          
           <fieldset>
-            <input type="radio" name="action" id="rice" value="rice">
+            <input type="radio" name="group1" id="rice" value="rice">
             <label for="rice">Rice</label></br>
-            <input type="radio" name="action" id="allPurposeWheatFlour" value="allPurposeWheatFlour">
+            <input type="radio" name="group1" id="allPurposeWheatFlour" value="allPurposeWheatFlour">
             <label for="allPurposeWheatFlour">All Purpose Wheat Flour</label></br>
-            <input type="radio" name="action" id="maizeFlour" value="maizeFlour">
+            <input type="radio" name="group1" id="maizeFlour" value="maizeFlour">
             <label for="maizeFlour">MaizeFlour</label></br>
-            <input type="radio" name="action" id="spaghetti" value="spaghetti">
+            <input type="radio" name="group1" id="spaghetti" value="spaghetti">
             <label for="spaghetti">Spaghetti</label></br>
-            <input type="radio" name="action" id="beans" value="beans">
+            <input type="radio" name="group1" id="beans" value="beans">
             <label for="beans">Beans</label></br>
-            <input type="radio" name="action" id="lentils" value="lentils">
+            <input type="radio" name="group1" id="lentils" value="lentils">
             <label for="lentils">Lentils</label></br>
-            <input type="radio" name="action" id="blackbeans" value="blackbeans">
+            <input type="radio" name="group1" id="blackbeans" value="blackbeans">
             <label for="blackbeans">Black Beans</label>
           </fieldset>
-          <h2>Dairy</h2>
+         
+         
+          <h2 style="text-align: center;">Dairy</h2>
           <fieldset>
-            <input type="radio" name="action" id="milk" value="milk">
+            <input type="radio" name="group2" id="milk" value="milk">
             <label for="milk">Milk</label></br>
-            <input type="radio" name="action" id="eggs" value="eggs">
+            <input type="radio" name="group2" id="eggs" value="eggs">
             <label for="eggs">Eggs</label></br>
-            <input type="radio" name="action" id="cheddar" value="cheddar">
+            <input type="radio" name="group2" id="cheddar" value="cheddar">
             <label for="cheddar">Cheddar</label></br>
-            <input type="radio" name="action" id="parmesan" value="parmesan">
+            <input type="radio" name="group2" id="parmesan" value="parmesan">
             <label for="parmesan">Parmesan</label></br>
           </fieldset>
+        
+         
+          <h3 style="text-align: center;">Type of Meat..</h3>
+          <fieldset>
+            <div>
+                <input type="radio" id="beef" name="group3" value="beef">
+                <label for="beef"> Beaf</label><br>
+
+                <input type="radio" id="chicken" name="group3" value="">
+                <label for="beef"> Chicken</label><br>
+
+                <input type="radio" id="cowmeat" name="group3" value="meat">
+                <label for="beef"> Cow Meat</label><br>
+
+                <input type="radio" id="fish" name="group3" value="meat">
+                <label for="fish"> Fish</label><br>
+
+                <input type="radio" id="pork" name="group3" value="meat">
+                <label for="pork"> Pork</label><br>
+                
+            </div>
+        </fieldset>
+     
+        
         </div>
       </div>
     </div>
+    <div id="button">
+      <button type="btn btn-primary" id="submit" onclick="checkOut()">Submit</button>
+    </div>
   </body>
-  <script src="../"
+  <script src="./js/recipes.js"></script>
 </html>
