@@ -1,7 +1,7 @@
 meals={
     vegetables:{
-        "tomato": "https://www.bbcgoodfood.com/recipes/collection/tomato/",
-        "cabbage": "https://www.wellplated.com/sauteed-cabbage/",
+        "Tomato": "https://www.bbcgoodfood.com/recipes/collection/tomato/",
+        "Cabbage": "https://www.wellplated.com/sauteed-cabbage/",
         "Brocolli": " https://www.allrecipes.com/recipe/228221/easy-lemon-and-garlic-broccoli/",
         "Cauliflower": "https://www.bbcgoodfood.com/recipes/collection/cauliflower",
         "Spinach": "https://www.simplyrecipes.com/recipes/spinach/",
@@ -11,3 +11,4 @@ meals={
         "Tangawizi": " https://tarasmulticulturaltable.com/chai-ya-tangawizi-kenyan-ginger-tea/"
     }
 }
+
