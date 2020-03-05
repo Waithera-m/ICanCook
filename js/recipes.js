@@ -1,42 +1,42 @@
 
-$(document).ready(function(){
-  meals={
-   flour: {
-     "wheatFlour": "https://www.allrecipes.com/recipe/233531/quick-whole-wheat-chapati/",
+$(document).ready(function () {
+  meals = {
+    flour: {
+      "wheatFlour": "https://www.allrecipes.com/recipe/233531/quick-whole-wheat-chapati/",
       "maizeFlour": "https://recipes.timesofindia.com/recipes/maize-flour-dhoklas/rs59756029.cms",
       "rice": "https://www.delish.com/cooking/a20089653/how-to-cook-rice/",
       "pasta": "https://thewanderlustkitchen.com/pasta-for-one-10-minutes/",
       "beans": "https://www.bbcgoodfood.com/recipes/kidney-bean-curry",
       "lentils": "https://www.culinaryhill.com/how-to-cook-lentils/",
       "blackbeans": "https://www.allrecipes.com/recipe/63113/best-black-beans/"
-   },
-    dairy:{
-        "milk":"https://healthynibblesandbits.com/how-to-make-paneer/",
-        "eggs":"https://www.bonappetit.com/recipe/real-deal-aioli",
-        "cheddar":"https://www.tasteofhome.com/recipes/parmesan-potato-wedges/",
-        "parmesan":"https://www.tasteofhome.com/recipes/parmesan-baked-potatoes/",
+    },
+    dairy: {
+      "milk": "https://healthynibblesandbits.com/how-to-make-paneer/",
+      "eggs": "https://www.bonappetit.com/recipe/real-deal-aioli",
+      "cheddar": "https://www.tasteofhome.com/recipes/parmesan-potato-wedges/",
+      "parmesan": "https://www.tasteofhome.com/recipes/parmesan-baked-potatoes/",
 
     },
-    vegetables:{
-        "tomato": "https://www.bbcgoodfood.com/recipes/collection/tomato/",
-        "cabbage": "https://www.wellplated.com/sauteed-cabbage/",
-        "brocolli": " https://www.allrecipes.com/recipe/228221/easy-lemon-and-garlic-broccoli/",
-        "cauliflower": "https://www.bbcgoodfood.com/recipes/collection/cauliflower",
-        "spinach": "https://www.simplyrecipes.com/recipes/spinach/",
-        "sukuma": "https://cookpad.com/ke/recipes/2401121-fried-sukuma-wiki-kales",
-        "onion": "https://www.simplyrecipes.com/recipes/how_to_caramelize_onions/",
-        "garlic": "https://cafedelites.com/garlic-mushrooms/",
-        "tangawizi": " https://tarasmulticulturaltable.com/chai-ya-tangawizi-kenyan-ginger-tea/"
+    vegetables: {
+      "tomato": "https://www.bbcgoodfood.com/recipes/collection/tomato/",
+      "cabbage": "https://www.wellplated.com/sauteed-cabbage/",
+      "brocolli": " https://www.allrecipes.com/recipe/228221/easy-lemon-and-garlic-broccoli/",
+      "cauliflower": "https://www.bbcgoodfood.com/recipes/collection/cauliflower",
+      "spinach": "https://www.simplyrecipes.com/recipes/spinach/",
+      "sukuma": "https://cookpad.com/ke/recipes/2401121-fried-sukuma-wiki-kales",
+      "onion": "https://www.simplyrecipes.com/recipes/how_to_caramelize_onions/",
+      "garlic": "https://cafedelites.com/garlic-mushrooms/",
+      "tangawizi": " https://tarasmulticulturaltable.com/chai-ya-tangawizi-kenyan-ginger-tea/"
     },
-    meat : {
-      "beef":"https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s ",
+    meat: {
+      "beef": "https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s ",
       "chicken": " https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms,",
       "bacon": "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
       "fish": "https://www.gimmesomeoven.com/cook-whole-fish/",
       "pork": "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/"
     },
-    combinedMeals:{
-      "ricespinach":"https://www.allrecipes.com/recipe/72500/spinach-rice/",
+    combinedMeals: {
+      "ricespinach": "https://www.allrecipes.com/recipe/72500/spinach-rice/",
       "ugaliSukumaMeat": "https://www.tasteoftheplace.com/a-kenyan-meal/",
       "riceBeefStew": "https://shewearsmanyhats.com/easy-stew-beef-rice-recipe/",
       "lasagna": "https://www.tasteofhome.com/recipes/best-lasagna/",
@@ -60,150 +60,161 @@ $(document).ready(function(){
     }
   }
 
-  $('#submit').click(function(){
-      var recipe_link = checkOut();
-      $('#links').html('<a href="'+recipe_link+'" target="_blank">Your Recipe Link</a>')
+  $('#submit').click(function () {
+    var recipe_link = checkOut();
+    $('#links').html('<a href="' + recipe_link + '" target="_blank">Your Recipe Link</a>')
   });
 
-  function checkOut(){
-    var allPurposeFlour = document.getElementById("allPurposeWheatFlour").value;
-    var maizeFlour = document.getElementById("maizeFlour").value;
-    var rice = document.getElementById("rice").value;
-    var pasta = document.getElementById("pasta").value;
-    var beans = document.getElementById("beans").value;
-    var lentils = document.getElementById("lentils").value;
-    var blackBeans = document.getElementById("blackbeans").value;
-    var milk = document.getElementById("milk").value;
-    var eggs = document.getElementById("eggs").value;
-    var cheddar = document.getElementById("cheddar").value;
-    var parmesan = document.getElementById("parmesan").value;
-    var yogurt = document.getElementById("yogurt").value;
-    var coconutMilk = document.getElementById("coconutMilk").value;
-    var beef = document.getElementById("beef").value;
-    var chicken = document.getElementById("chicken").value;
-    var bacon = document.getElementById("bacon").value;
-    var fish = document.getElementById("fish").value;
-    var pork = document.getElementById("pork").value;
-    var tomatoes = document.getElementById("tomatoes").value;
-    var cabbage = document.getElementById("cabbage").value;
-    var brocolli = document.getElementById("brocolli").value;
-    var cauliflower = document.getElementById("cauliflower").value;
-    var spinach = document.getElementById("spinach").value;
-    var sukuma = document.getElementById("sukuma").value;
-    var onion = document.getElementById("onion").value;
-    var garlic = document.getElementById("garlic").value;
-    var tangawizi = document.getElementById("tangawizi").value;
+  function checkOut() {
+    var allPurposeFlour = $("#allPurposeWheatFlour").is(':checked');
+    var maizeFlour = $("#maizeFlour").is(':checked');
+    var rice = $("#rice").is(':checked');
+    var pasta = $("#pasta").is(':checked');
+    var beans = $("#beans").is(':checked');
+    var lentils = $("#lentils").is(':checked');
+    var blackBeans = $("#blackbeans").is(':checked');
+    var milk = $("#milk").is(':checked');
+    var eggs = $("#eggs").is(':checked');
+    var cheddar = $("#cheddar").is(':checked');
+    var parmesan = $("#parmesan").is(':checked');
+    var yogurt = $("#yogurt").is(':checked');
+    var coconutMilk = $("#coconutMilk").is(':checked');
+    var beef = $("#beef").is(':checked');
+    var chicken = $("#chicken").is(':checked');
+    var bacon = $("#bacon").is(':checked');
+    var fish = $("#fish").is(':checked');
+    var pork = $("#pork").is(':checked');
+    var tomatoes = $("#tomatoes").is(':checked');
+    var cabbage = $("#cabbage").is(':checked');
+    var brocolli = $("#brocolli").is(':checked');
+    var cauliflower = $("#cauliflower").is(':checked');
+    var spinach = $("#spinach").is(':checked');
+    var sukuma = $("#sukuma").is(':checked');
+    var onion = $("#onion").is(':checked');
+    var garlic = $("#garlic").is(':checked');
+    var tangawizi = $("#tangawizi").is(':checked');
+    var links = [];
+
+    if (milk) {
+      links.push(meals.dairy.milk);
+    }
+    if (eggs) {
+      links.push(meals.dairy.eggs);
+    }
+    if (cheddar) {
+      links.push(meals.dairy.cheddar);
+    }
+    if (parmesan) {
+      links.push(meals.dairy.cheddar);
+    }
+    if (chicken) {
+      links.push(meal.beef.chicken);
+    }
+    if (bacon) {
+      links.push(meals.meat.Bacon);
+    }
+    if (fish) {
+      links.push(meals.meat.Fish);
+    }
+    if (pork) {
+      links.push(meals.meat.Pork)
+    }
+
+    if (beef) {
+      links.push(meals.meat.beef);
+    }
 
 
-    if(milk !== null){ 
-        return meals.dairy.milk;
-      }else if(eggs !== null){
-        return meals.dairy.eggs;
-      }else if (cheddar !== null){
-        return meals.dairy.cheddar;
-      }else if (parmesan !== null){
-          return meals.dairy.cheddar;
-      }
-    if (chicken !== null){
-      return meal.beef.chicken;
-      }
-      if(bacon !== null){
-        return meals.meat.Bacon;
-      }
-      if(fish !== null){
-        return meals.meat.Fish;
-      }
-      if(pork !== null){
-        return meals.meat.Pork;
-      }
-      
-      if(beef !== null){
-        return meals.meat.beef;
-      }
-  
+    //Determine links to links.push(if users select more than one ingredient
 
-  //Determine links to return if users select more than one ingredient
-  
     //Match users' flour and grains' selection and recipe links
-    if(allPurposeFlour !== null){
-      return meals.flour.wheatFlour;
-    }else if(maizeFlour !== null){
-      return meals.flour.maizeFlour;
-    }else if(rice !==null){
-      return meals.flour.rice;
-    }else if(pasta !== null){
-      return meals.flour.pasta;
-    }else if(beans !== null){
-      return meals.flour.beans;
-    }else if(lentils !== null){
-      return meals.flour.lentils;
-    }else if (blackBeans!== null){
-      return meals.flour.blackbeans;
-    };
-    
-  //Match users' vegetable selection and recipe links
-    if(tomatoes !== null){
-      return meals.vegetables.tomato;
-    }else if(cabbage !== null){
-      return meals.vegetables.cabbage;
-    }else if(brocolli !== null){
-      return meals.vegetables.broccoli;
-    }else if(cauliflower !== null){
-      return meals.vegetables.cauliflower;
-    }else if(spinach !== null){
-      return meals.vegetables.spinach;
-    }else if(sukuma !== null){
-      return meals.vegetables.sukuma;
-    }else if(onion !== null){
-      return meal.vegetables.onion;
-    }else if(garlic !== null){
-      returnmeals.vegetables.garlic;
-    }else{
-      return meals.vegetables.tangawizi;
+    if (allPurposeFlour) {
+      links.push(meals.flour.wheatFlour);
+    } if (maizeFlour) {
+      links.push(meals.flour.maizeFlour);
+    } if (rice) {
+      links.push(meals.flour.rice);
+    } if (pasta) {
+      links.push(meals.flour.pasta);
+    } if (beans) {
+      links.push(meals.flour.beans);
+    } if (lentils) {
+      links.push(meals.flour.lentils);
+    } if (blackBeans) {
+      links.push(meals.flour.blackbeans);
     };
 
-    if(allPurposeFlour !== null && blackBeans !== null){
+    //Match users' vegetable selection and recipe links
+    if (tomatoes) {
+      links.push(meals.vegetables.tomato);
+    } if (cabbage) {
+      links.push(meals.vegetables.cabbage);
+    } if (brocolli) {
+      links.push(meals.vegetables.broccoli);
+    } if (cauliflower) {
+      links.push(meals.vegetables.cauliflower);
+    } if (spinach) {
+      links.push(meals.vegetables.spinach);
+    } if (sukuma) {
+      links.push(meals.vegetables.sukuma);
+    } if (onion) {
+      links.push(meal.vegetables.onion);
+    } if (garlic) {
+      links.push(meals.vegetables.garlic);
+    } if (tangawizi) {
+      links.push(meals.vegetables.tangawizi);
+    }
+
+    if (links.length === 1) {
+      return links[0];
+    }
+
+    console.log(links);
+
+    if (allPurposeFlour && blackBeans) {
       return meals.combinedMeals.chapatiBlackbeans;
-    }else if(rice !== null && beans !== null){
+    } else if (rice && beans) {
       return meals.combinedMeals.riceBeans;
-    }else if(rice !== null && blackBeans !== null){
+    } else if (rice && blackBeans) {
       return meals.combinedMeals.riceBlackbeans;
-    }else if(rice !== null && blackBeans !== null && chicken !== null){
+    } else if (rice && blackBeans && chicken) {
       return meals.combinedMeals.riceBlackBeansChicken;
-    }else if(rice !== null && coconutMilk !== null && beans !== null){
+    } else if (rice && coconutMilk && beans) {
       return meals.combinedMeals.riceBeansCoconut;
-    }else if(rice !== null && chicken !== null){
+    } else if (rice && chicken) {
       return meals.combinedMeals.riceChicken;
-    }else if(rice !== null && fish !== null){
+    } else if (rice && fish) {
       return meals.combinedMeals.riceFish;
-    }else if(rice !== null && beef !== null){
+    } else if (rice && beef) {
       return meals.combinedMeals.riceBeefStew;
-    }else if(rice !== null && lentils !== null && yogurt !== null){
+    } else if (rice && lentils && yogurt) {
       return meals.combinedMeals.riceLentilsYogurt;
-    }else if(ugali !== null && fish !== null && sukuma !== null){
+    } else if (maizeFlour && fish && sukuma) {
       return meals.combinedMeals.ugaliFishSukuma;
-    }else if(ugali !== null && fish !== null && beans !== null){
+    } else if (maizeFlour && fish && beans) {
       return meals.combinedMeals.ugaliBeansVeg;
-    }else if(rice !== null && garlic !== null && fish !== null){
+    } else if (rice && garlic && fish) {
       return meals.combinedMeals.jollofRiceFish;
-    }else if(ugali !== null && beef !== null){
+    } else if (maizeFlour && beef) {
       return meals.combinedMeals.ugaliChicken;
-    }else if(ugali !== null && pork !== null){
+    } else if (maizeFlour && pork) {
       return meals.combinedMeals.porkUgali;
-    }else if(bacon !== null && eggs !== null){
+    } else if (bacon && eggs) {
       return meals.combinedMeals.baconOmelete;
-    }else if(parmesan !== null && bacon !== null){
+    } else if (parmesan && bacon) {
       return meals.combinedMeals.cheeseBacon;
-    }else if(cheddar !== null && pasta !== null){
+    } else if (cheddar && pasta) {
       return meals.combinedMeals.lasagna;
-    }else if(rice !== null && milk !== null && spinach !== null){
+    } else if (rice && milk && spinach) {
       return meals.combinedMeals.ricespinach;
-    }else if(beef !== null && spinach !== null){
+    } else if (beef && spinach) {
       return meals.combinedMeals.beefTumbukiza;
-    }else if(ugali !== null && tangawizi !== null && meat !== null && sukuma !== null){
+    } else if (maizeFlour && tangawizi && meat && sukuma) {
       return meals.combinedMeals.ugaliSukumaMeat;
-    }else if(ugali !== null && chicken !== null){
+    } else if (maizeFlour && chicken) {
       return meals.combinedMeals.ugaliChicken;
-    };
-}
+    }else {
+      return meals.combinedMeals.lasagna
+    }
+  }
 });
