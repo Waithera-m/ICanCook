@@ -1,4 +1,26 @@
 // submit button function
+$(document).ready(function () {
+      $("#carouselHome").carousel();
+  
+      $(".corousel-control-prev").click(function () {
+          $("#carouselHome").carousel("prev")
+      });
+      $(".corousel-control-next").click(function () {
+          $("#carouselHome").carousel("next")
+      });
+      $(".imageOne").click(function () {
+          $("#carouselHome").carousel(0);
+      });
+      $(".imageTwo").click(function () {
+          $("#carouselHome").carousel(1);
+      });
+      $(".imageThree").click(function () {
+          $("#carouselHome").carousel(2);
+      });
+      $(".imageFour").click(function () {
+          $("#carouselHome").carousel(3);
+      });
+  
 function validateTheForm() {
     var Email= document.getElementById("Email").value;
     var Password = document.getElementById("Password").value;
@@ -47,6 +69,7 @@ signUpButton.addEventListener('click', () => {
 
 signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
+});
 });
 
 
