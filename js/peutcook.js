@@ -20,4 +20,3 @@ $(document).ready(function () {
           $("#carouselHome").carousel(3);
       });
   });
-  
