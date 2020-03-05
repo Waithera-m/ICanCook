@@ -1,65 +1,15 @@
-
-
-function checkOut(){
-    var allPurposeFlour = document.getElementById("allPurposeWheatFlour").value;
-  var maizeFlour = document.getElementById("maizeFlour").value;
-  var rice = document.getElementById("rice").value;
-  var pasta = document.getElementById("pasta").value;
-  var beans = document.getElementById("beans").value;
-  var lentils = document.getElementById("lentils").value;
-  var blackBeans = document.getElementById("blackbeans").value;
-  var milk = document.getElementById("milk").value;
-  var eggs = document.getElementById("eggs").value;
-  var cheddar = document.getElementById("cheddar").value;
-  var parmesan = document.getElementById("parmesan").value;
-  var yogurt = document.getElementById("yogurt").value;
-  var coconutMilk = document.getElementById("coconutMilk").value;
-  var beef = document.getElementById("beef").value;
-  var chicken = document.getElementById("chicken").value;
-  var bacon = document.getElementById("bacon").value;
-  var fish = document.getElementById("fish").value;
-  var pork = document.getElementById("pork").value;
-  var tomatoes = document.getElementById("tomatoes").value;
-  var cabbage = document.getElementById("cabbage").value;
-  var brocolli = document.getElementById("brocolli").value;
-  var cauliflower = document.getElementById("cauliflower").value;
-  var spinach = document.getElementById("spinach").value;
-  var sukuma = document.getElementById("sukuma").value;
-  var onion = document.getElementById("onion").value;
-  var garlic = document.getElementById("garlic").value;
-  var tangawizi = document.getElementById("tangawizi").value;
-
-  // alert("Check this out" + meals.meat.Chicken);
-
-}if (Chicken !== null){
-return "check out thiis".meal.beef.chicken;
-}
-if(Bacon !== null){
-  return "Check out this" + meals.meat.Bacon;
-}
-if(Fish !== null){
-  return"check this out" + meals.meat.Fish;
-}
-if(Pork !== null){
-  return"Check out this " + meals.meat.Pork;
-}
-
-if( beef !== null){
-  return"Check out" +meals.meat.beef;
-}
-
 $(document).ready(function(){
   meals={
    flour: {
-            "wheatFlour": "https://www.allrecipes.com/recipe/233531/quick-whole-wheat-chapati/",
-            "maizeFlour": "https://recipes.timesofindia.com/recipes/maize-flour-dhoklas/rs59756029.cms",
-            "rice": "https://www.delish.com/cooking/a20089653/how-to-cook-rice/",
-            "pasta": "https://thewanderlustkitchen.com/pasta-for-one-10-minutes/",
-            "beans": "https://www.bbcgoodfood.com/recipes/kidney-bean-curry",
-            "lentils": "https://www.culinaryhill.com/how-to-cook-lentils/",
-            "blackbeans": "https://www.allrecipes.com/recipe/63113/best-black-beans/"
+     "wheatFlour": "https://www.allrecipes.com/recipe/233531/quick-whole-wheat-chapati/",
+      "maizeFlour": "https://recipes.timesofindia.com/recipes/maize-flour-dhoklas/rs59756029.cms",
+      "rice": "https://www.delish.com/cooking/a20089653/how-to-cook-rice/",
+      "pasta": "https://thewanderlustkitchen.com/pasta-for-one-10-minutes/",
+      "beans": "https://www.bbcgoodfood.com/recipes/kidney-bean-curry",
+      "lentils": "https://www.culinaryhill.com/how-to-cook-lentils/",
+      "blackbeans": "https://www.allrecipes.com/recipe/63113/best-black-beans/"
    },
-      dairy:{
+    dairy:{
         "milk":"https://healthynibblesandbits.com/how-to-make-paneer/",
         "eggs":"https://www.bonappetit.com/recipe/real-deal-aioli",
         "cheddar":"https://www.tasteofhome.com/recipes/parmesan-potato-wedges/",
@@ -79,10 +29,10 @@ $(document).ready(function(){
     },
     meat : {
       "beef":"https://www.allrecipes.com/recipe/17325/savory-garlic-marinated-steaks/?internalSource=streams&referringId=475&referringContentType=Recipe%20Hub&clickId=st_trending_s ",
-     "chicken" :" https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms,",
-     "bacon" : "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
+      "chicken": " https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms,",
+      "bacon": "https://www.thespruceeats.com/how-to-make-your-own-bacon-4146515",
       "fish": "https://www.gimmesomeoven.com/cook-whole-fish/",
-      "pork" : "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/"
+      "pork": "https://kenyayote.com/procedure-cooking-wet-fry-pork-meal-kenyan-recipe/"
     },
     combinedMeals:{
       "ricespinach":"https://www.allrecipes.com/recipe/72500/spinach-rice/",
@@ -108,35 +58,63 @@ $(document).ready(function(){
       "jollofRiceFish": "https://www.sbs.com.au/food/recipes/jollof-rice-fish"
     }
   };
-function checkOut(){
-    var milk = document.getElementById("milk").value;
-    var eggs = document.getElementById("eggs").value;
-    var cheddar= document.getElementById("cheddar").value;
-    var parmesan = document.getElementById("parmesan").value;
+
+  
+  function checkOut(){
+    var allPurposeFlour = document.getElementById("allPurposeWheatFlour").value;
+    var maizeFlour = document.getElementById("maizeFlour").value;
     var rice = document.getElementById("rice").value;
-    var allPurposeWheatFlour = document.getElementById("allPurposeWheatFlour").value;
-    var maizeFlour = document.getElementById("mflour").value;
-    var spaghetti = document.getElementById("spaghetti").value;
+    var pasta = document.getElementById("pasta").value;
     var beans = document.getElementById("beans").value;
     var lentils = document.getElementById("lentils").value;
-    var blackbeans = document.getElementById("blackbeans").value;
+    var blackBeans = document.getElementById("blackbeans").value;
+    var milk = document.getElementById("milk").value;
+    var eggs = document.getElementById("eggs").value;
+    var cheddar = document.getElementById("cheddar").value;
+    var parmesan = document.getElementById("parmesan").value;
+    var yogurt = document.getElementById("yogurt").value;
+    var coconutMilk = document.getElementById("coconutMilk").value;
     var beef = document.getElementById("beef").value;
     var chicken = document.getElementById("chicken").value;
     var bacon = document.getElementById("bacon").value;
     var fish = document.getElementById("fish").value;
     var pork = document.getElementById("pork").value;
+    var tomatoes = document.getElementById("tomatoes").value;
+    var cabbage = document.getElementById("cabbage").value;
+    var brocolli = document.getElementById("brocolli").value;
+    var cauliflower = document.getElementById("cauliflower").value;
+    var spinach = document.getElementById("spinach").value;
+    var sukuma = document.getElementById("sukuma").value;
+    var onion = document.getElementById("onion").value;
+    var garlic = document.getElementById("garlic").value;
+    var tangawizi = document.getElementById("tangawizi").value;
 
 
-    
-  
-    if(milk !== null){ 
-        return meals.dairy.milk;
+  if(milk !== null){ 
+      return meals.dairy.milk;
     }else if(eggs !== null){
-        return meals.dairy.eggs;
+      return meals.dairy.eggs;
     }else if (cheddar !== null){
-        return meals.dairy.cheddar;
+      return meals.dairy.cheddar;
     }else if (parmesan !== null){
         return meals.dairy.cheddar;
+    }
+  
+  if (chicken !== null){
+    return meal.beef.chicken;
+    }
+    if(bacon !== null){
+      return meals.meat.Bacon;
+    }
+    if(fish !== null){
+      return meals.meat.Fish;
+    }
+    if(pork !== null){
+      return meals.meat.Pork;
+    }
+    
+    if(beef !== null){
+      return meals.meat.beef;
     }
  
 
