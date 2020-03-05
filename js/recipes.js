@@ -31,8 +31,9 @@ function checkOut(){
 
   alert("Check this out" + meals.meat.Chicken);
 
-}if (Chicken === ''){
-
+}if (Chicken !== null){
+return "check out thiis".meal.beef.chicken;
+}
 if(Bacon !== null){
   return "Check out this" + meals.meat.Bacon;
 }
@@ -46,7 +47,7 @@ if(Pork !== null){
 if( beef !== null){
   return"Check out" +meals.meat.beef;
 }
-}
+
 $(document).ready(function(){
   meals={
     vegetables:{
