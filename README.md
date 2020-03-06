@@ -31,18 +31,19 @@ Through heavy coding and analysis we came up with a enhanced way of discovering 
 | INPUT |PROCESSING| OUTPUT |
 | :---         |     :---:      |          ---: |
 | The user first clicks on the buttons to that have data representing what they have on the kitchen  | The user determines the preffered site via clicking on the buttons     | A alert is shown to the user    |
-| Many choices can be selected via HTML forms    |   JavaScript does the backend coding     |  JavaScript and HTML are responsible for the output]\    |
+| Many choices can be selected via HTML forms    |   JavaScript does the backend coding     |  JavaScript and HTML are responsible for the output alert    |
 
 
 ## Installation And Setup 
 Git clone the repository using the link below
 https://github.com/Waithera-m/ICanCook.git
 Then git clone into your local machine via the Terminal and save to a seperate folder
-Open the folder using a Modern browser to show the website
+Open the folder using a compatible browser to show the website
 
 ## Known Bugs 
-The bugs detected were;
-Some choices were not relaying output yet the same code was used
+The bugs detected were detected and we are trying hard to crush them!;
+1.Some choices were not relaying output yet the same code was used.
+2.Sometimes
 
 
 ## Technologies Used 
@@ -69,7 +70,7 @@ README
 
 ## Support And Contact Details 
 For any regards of edits and assistance our details are reserved below;
-
+E-mail: mathiujes@gmail.com        
 
 
 ## GitHub Pages Link 
