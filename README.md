@@ -1,6 +1,6 @@
 # WELCOME TO ICanCook! 
 A brief snapshot of a wonderful website that merges all your kitchen eGitHub Pagesquipment into a sumptious meal
-![Image of Yaktocat](/images/ICanCook1.kg)
+![Image of Website](/images/ICanCook1.jpeg)
 
 This site was built using [ICanCook] (https://waithera-m.github.io/ICanCook/jpeg)
 ## Authors 
