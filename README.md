@@ -1,5 +1,8 @@
 # WELCOME TO ICanCook! 
 A brief snapshot of a wonderful website that merges all your kitchen equipment into a sumptious meal
+
+This site was built using [GitHub Pages](https://pages.github.com/)
+
 ## Authors 
 
 - [x] Njihia Mary (Scram Master)
