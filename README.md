@@ -48,22 +48,24 @@ The bugs detected were detected and we are trying hard to crush them!;
 
 ## Technologies Used 
 
-**Used in the FrontEnd of the Website to adjust the User Interface and also making the website appealing
+**Used in the FrontEnd of the Website to adjust the User Interface and also making the website appealing**
 
 HTML V5
 CSS
 Bootstrap
 
-**Used in the Backend of the Website to make the functioning of the website and run operations smoothly 
+**Used in the Backend of the Website to make the functioning of the website and run operations smoothly **
 
 JavaScript
 JQuery
 
-**Used in Hosting our projects
+**Used in Hosting our projects**
+
 
 Git
 GitHub
-**Used In Presentation of the Project
+
+**Used In Presentation of the Project**
 
 Google Slides
 README
