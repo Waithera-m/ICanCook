@@ -3,6 +3,8 @@ A brief snapshot of a wonderful website that merges all your kitchen equipment i
 
 This site was built using [GitHub Pages](https://pages.github.com/)
 
+Our live site .[ICanCook].(https://waithera-m.github.io/ICanCook/)
+
 ## Authors 
 
 - [x] Njihia Mary (Scram Master)
@@ -18,6 +20,7 @@ ICanCook 1.0(2020)
 
 This website was created to execute simple functions like showing you how to cook according to your kitchen inventory,
 thus 
+
 making life simple to cook anything with enhanced descriptive recipies..
 
 
@@ -46,13 +49,19 @@ Through heavy coding and analysis we came up with a enhanced way of discovering 
 
 ## Installation And Setup 
 Git clone the repository using the link below
+
 https://github.com/Waithera-m/ICanCook.git
+
 Then git clone into your local machine via the Terminal and save to a seperate folder
+
 Open the folder using a compatible browser to show the website
+
 
 ## Known Bugs 
 The bugs detected were detected and we are trying hard to crush them!;
+
 1.Some choices were not relaying output yet the same code was used.
+
 2.Sometimes
 
 
@@ -83,7 +92,9 @@ README
 
 ## Support And Contact Details 
 For any regards of edits and assistance our details are reserved below;
+
 E-mail: mathiujes@gmail.com        
+
 
 
 ## GitHub Pages Link 
