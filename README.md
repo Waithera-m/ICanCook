@@ -1,9 +1,5 @@
 # WELCOME TO ICanCook! 
 A brief snapshot of the wonderful website that merges all your kitchen equipment into a sumptious meal
-
-
-
-<<IMAGE OF WEBSITE HERE!>>
 ## Authors 
 
 - [x] Njihia Mary (Scram Master)
@@ -13,13 +9,14 @@ A brief snapshot of the wonderful website that merges all your kitchen equipment
 - [x] Mathiu Jesse
 
 ## Version
-ICanCook 1.0
+ICanCook 1.0(2020)
 
 ## Description 
 
 This website was created to execute simple functions like to show you how to cook according to your kitchen inventory thus 
 making life simple to cook anything with enhanced descriptive recipies..
-
+We extensively used VSCode to create our project and the main function was to link the Javascript with HTML links
+We also create carousels to amuse the webpage animations,Sign In Forms, about us section ,
 
 ## Features 
 Through heavy coding and analysis we came up with a enhanced way of discovering recipies via;
@@ -34,16 +31,18 @@ Through heavy coding and analysis we came up with a enhanced way of discovering 
 | INPUT |PROCESSING| OUTPUT |
 | :---         |     :---:      |          ---: |
 | The user first clicks on the buttons to that have data representing what they have on the kitchen  | The user determines the preffered site via clicking on the buttons     | A alert is shown to the user    |
-| Many choices can be selected via HTML forms    |   JavaScript does the backend coding     |  CSS and JavaScript    |
+| Many choices can be selected via HTML forms    |   JavaScript does the backend coding     |  JavaScript and HTML are responsible for the output    |
 
 
 ## Installation And Setup 
 Git clone the repository using the link below
 https://github.com/Waithera-m/ICanCook.git
+Then git clone into your local machine via the Terminal and save to a seperate folder
+Open the folder using a Modern browser to show the website
 
 ## Known Bugs 
 The bugs detected were;
-
+Some choices were not relaying output yet the same code was used
 
 
 ## Technologies Used 
