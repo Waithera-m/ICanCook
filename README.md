@@ -45,7 +45,7 @@ Through heavy coding and analysis we came up with a enhanced way of discovering 
 
 
 ## Installation And Setup 
-Git clone the repository using the link below
+Git clone the repository using the link belo
 
 https://github.com/Waithera-m/ICanCook.git
 
