@@ -1,10 +1,8 @@
 # WELCOME TO ICanCook! 
-A brief snapshot of a wonderful website that merges all your kitchen equipment into a sumptious meal
+A brief snapshot of a wonderful website that merges all your kitchen eGitHub Pagesquipment into a sumptious meal
+![Image of Yaktocat](/images/ICanCook1.kg)
 
-This site was built using [GitHub Pages](https://pages.github.com/)
-
-Our live site .[ICanCook].(https://waithera-m.github.io/ICanCook/)
-
+This site was built using [ICanCook] (https://waithera-m.github.io/ICanCook/jpeg)
 ## Authors 
 
 - [x] Njihia Mary (Scram Master)
