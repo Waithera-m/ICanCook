@@ -1,5 +1,5 @@
 # WELCOME TO ICanCook! 
-A brief snapshot of the wonderful website
+A brief snapshot of the wonderful website that merges all your kitchen equipment into a sumptious meal
 
 
 
@@ -23,12 +23,18 @@ making life simple to cook anything with enhanced descriptive recipies..
 
 ## Features 
 Through heavy coding and analysis we came up with a enhanced way of discovering recipies via;
-
+-the user chooses the ingredients they have in their disposal
+-the website processes how their combination would fit their needs
+-A link to the suggested website is displayed via an alert and once the user clicks on the link they are redirected to the site.
 
 
 ## Behaviour Driven Development
-| INPUT | PROCESSING | OUTPUT |
-|The user first clicks on the buttons to that have data representing what they have on the kitchen| VJKENVCERV | trbtbtn |
+
+
+| INPUT |PROCESSING| OUTPUT |
+| :---         |     :---:      |          ---: |
+| The user first clicks on the buttons to that have data representing what they have on the kitchen  | The user determines the preffered site via clicking on the buttons     | A alert is shown to the user    |
+| Many choices can be selected via HTML forms    |   JavaScript does the backend coding     |  CSS and JavaScript    |
 
 
 ## Installation And Setup 
@@ -36,6 +42,7 @@ Git clone the repository using the link below
 https://github.com/Waithera-m/ICanCook.git
 
 ## Known Bugs 
+The bugs detected were;
 
 
 
@@ -43,7 +50,7 @@ https://github.com/Waithera-m/ICanCook.git
 
 **Used in the FrontEnd of the Website to adjust the User Interface and also making the website appealing
 
-HTML v5
+HTML V5
 CSS
 Bootstrap
 
@@ -56,6 +63,10 @@ JQuery
 
 Git
 GitHub
+**Used In Presentation of the Project
+
+Google Slides
+README
 
 ## Support And Contact Details 
 For any regards of edits and assistance our details are reserved below;
