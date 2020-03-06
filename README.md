@@ -13,15 +13,22 @@ ICanCook 1.0(2020)
 
 ## Description 
 
-This website was created to execute simple functions like showing you how to cook according to your kitchen inventory, thus 
+This website was created to execute simple functions like showing you how to cook according to your kitchen inventory,
+thus 
 making life simple to cook anything with enhanced descriptive recipies..
+
+
 We extensively used VSCode to create our project and the main function was to link the Javascript with HTML links
+
 We also create carousels to amuse the webpage animations,Sign In Forms, about us section ,
 
 ## Features 
 Through heavy coding and analysis we came up with a enhanced way of discovering recipies via;
+
 -the user chooses the ingredients they have in their disposal
+
 -the website processes how their combination would fit their needs
+
 -A link to the suggested website is displayed via an alert and once the user clicks on the link they are redirected to the site.
 
 
@@ -56,7 +63,8 @@ Bootstrap
 
 **Used in the Backend of the Website to make the functioning of the website and run operations smoothly **
 
-JavaScript
+
+ JavaScript
 JQuery
 
 **Used in Hosting our projects**
