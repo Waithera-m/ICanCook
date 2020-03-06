@@ -70,10 +70,11 @@ HTML V5
 CSS
 Bootstrap
 
-**Used in the Backend of the Website to make the functioning of the website and run operations smoothly **
+**Used in the Backend of the Website to make the functioning of the website and run operations smoothly**
 
 
- JavaScript
+
+JavaScript
 JQuery
 
 **Used in Hosting our projects**
