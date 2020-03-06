@@ -1,7 +1,7 @@
-#m2{
+#m2 {
   font-family: 'Fredoka One';
 }
-.contact-us{
+.contact-us {
   height: auto;
   width: auto;
   background: linear-gradient(to right, #FF4B2B, #ffa64d);
@@ -270,7 +270,9 @@ ol li {
 	display: inline-block;
 }
 .containerOne {
+  top: 200px ;
 	width: 100%;
+	height: auto;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -280,7 +282,7 @@ ol li a {
 	text-decoration: none;
   color: white;
   font-size: 30px;
-  padding: 0 20px;
+	padding: 0 20px;
 }
 .one{
 	position: absolute;
@@ -323,7 +325,7 @@ ol li a {
     transform: translate(-50%, -50%);
     font-family: cursive;
 }
-first{
+.first{
 	position: absolute;
   top: 8px;
   left: 16px;
