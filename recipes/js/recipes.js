@@ -108,16 +108,16 @@ $(document).ready(function () {
       links.push(meals.dairy.cheddar);
     }
     if (chicken) {
-      links.push(meal.beef.chicken);
+      links.push(meals.meat.chicken);
     }
     if (bacon) {
-      links.push(meals.meat.Bacon);
+      links.push(meals.meat.bacon);
     }
     if (fish) {
-      links.push(meals.meat.Fish);
+      links.push(meals.meat.fish);
     }
     if (pork) {
-      links.push(meals.meat.Pork)
+      links.push(meals.meat.pork)
     }
 
     if (beef) {
@@ -158,7 +158,7 @@ $(document).ready(function () {
     } if (sukuma) {
       links.push(meals.vegetables.sukuma);
     } if (onion) {
-      links.push(meal.vegetables.onion);
+      links.push(meals.vegetables.onion);
     } if (garlic) {
       links.push(meals.vegetables.garlic);
     } if (tangawizi) {

@@ -1,11 +1,13 @@
-body{
+body {
   background-image: url(https://bit.ly/2wyx0t0);
   background-size: cover;
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
   font-size: larger;
 }
-
+.card-body {
+  font-size: 40px;
+}
 h1{
   text-align: center;
   /* margin-left: 600px; */
