@@ -6,10 +6,15 @@ body {
   font-size: larger;
 }
 .card-body {
-  font-size: 40px;
+  font-size: larger;
+  font-weight: 500;
 }
-h1{
+.title {
   text-align: center;
+  color:white;
+  margin-bottom: 20px;
+  border:2px solid#6D748C;
+  background-color:#6D748C;
   /* margin-left: 600px; */
 }
 h2{
@@ -24,13 +29,14 @@ form {
   margin: 0 auto;
 }
 fieldset{
-  font-size: large;
+  font-size: larger;
 }
 ol li a {
 	text-decoration: none;
   color: white;
   font-size: 30px;
-	padding: 0 20px;
+  padding: 0 20px;
+  display: inline-block;
 }
 /* .first{
 	position: absolute;
